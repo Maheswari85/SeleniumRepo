@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Marathon2Testcases">
+<parameter name = "url" value = "https://dev135016.service-now.com"/>
+ <parameter name = "browser" value = "chrome"/>
+
+  <test  name="Test" verbose = "5">
+    <classes>
+      <class name="marathonTestNG.CreateInstance"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
